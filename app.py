@@ -6,7 +6,7 @@ import plotly.express as px
 st.header('Análise de Dados de Vendas de Carros nos EUA')
 
 # Leitura do conjunto de dados
-car_data = pd.read_csv(r"vehicles_us.csv")
+car_data = pd.read_csv(r"vehicles.csv")
 
 # Botão para histograma
 hist_button = st.button('Criar histograma')
